@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       {/* background */}
-      <div className="absolute inset-0 animate-gradient bg-gradient-to-r from-blue-100 via-purple-100 to-green-200 bg-[length:400%_400%]"></div>
+      <div className="absolute inset-0 animate-gradient bg-gradient-to-r from-blue-100 via-purple-100 to-green-100 bg-[length:400%_400%]"></div>
 
       <Particles
         id="tsparticles"
@@ -25,7 +25,7 @@ export default function HomePage() {
             color: { value: ["#ff9ff3", "#feca57", "#48dbfb", "#1dd1a1"] },
             shape: { type: "circle" },
             opacity: { value: 0.2, random: { enable: true, minimumValue: 0.1 } },
-            size: { value: 120, random: { enable: true, minimumValue: 20 } },
+            size: { value: 150, random: { enable: true, minimumValue: 20 } },
             move: { enable: true, speed: 0.5, direction: "none", random: true, outModes: "bounce" },
             blur: { enable: true, value: 80 }, 
           },

@@ -21,7 +21,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto mb-12">
         <h1 className="text-4xl font-bold mb-4 text-gray-600 text-center">About Me</h1>
         <p className="text-lg text-gray-800">
-          Cloud Engineer / Software Developer  with 3+ years of experience in Azure cloud administration, Infrastructure as Code, and software development. Skilled in Java, React, Angular, REST APIs, automating infrastructure, building secure scalable systems, and collaborating across teams to deliver production-ready cloud solutions. Certified in Azure Fundamentals and Terraform Associate.    
+          Jessica is a Cloud Engineer / Software Developer  with 3+ years of experience in Azure cloud administration, Infrastructure as Code, and software development. Skilled in Java, React, Angular, REST APIs, automating infrastructure, building secure scalable systems, and collaborating across teams to deliver production-ready cloud solutions. Certified in Azure Fundamentals and Terraform Associate.    
         </p>
       </div>
 
@@ -55,7 +55,7 @@ export default function About() {
                   <>
                     {/* left content */}
                     <div className="w-1/2 pr-8 relative">
-                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-500">
+                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-400">
                         {m.event}
                       </div>
                     </div>
