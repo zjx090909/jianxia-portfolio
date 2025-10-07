@@ -13,7 +13,9 @@ const milestones = [
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-100 via-purple-100 to-green-100 p-8">
+    <div className="min-h-screen p-8 relative overflow-hidden">
+      {/* background */}
+      <div className="absolute inset-0 -z-10 animate-gradient bg-gradient-to-r from-blue-100 via-purple-100 to-green-100 bg-[length:400%_400%]"></div>
       {/* summary */}
       <div className="max-w-4xl mx-auto mb-12">
         <h1 className="text-4xl font-bold mb-4 text-gray-600">About Me</h1>
@@ -25,7 +27,7 @@ export default function About() {
       {/* milestone */}
       <div className="max-w-4xl mx-auto relative">
         {/* middle line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-300"></div>
+        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
 
         <ul className="space-y-12">
           {milestones.map((m, idx) => {
@@ -40,7 +42,7 @@ export default function About() {
                     </div>
                     {/* right content*/}
                     <div className="w-1/2 pl-8 relative">
-                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-blue-400">
+                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-400">
                         {m.event}
                       </div>
                     </div>
@@ -49,7 +51,7 @@ export default function About() {
                   <>
                     {/* left content */}
                     <div className="w-1/2 pr-8 relative">
-                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-blue-400">
+                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-400">
                         {m.event}
                       </div>
                     </div>

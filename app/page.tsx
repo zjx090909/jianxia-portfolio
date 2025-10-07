@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       {/* background */}
-      <div className="absolute inset-0 animate-gradient bg-gradient-to-r from-blue-100 via-purple-300 to-green-200 bg-[length:400%_400%]"></div>
+      <div className="absolute inset-0 animate-gradient bg-gradient-to-r from-blue-100 via-purple-100 to-green-200 bg-[length:400%_400%]"></div>
 
       <Particles
         id="tsparticles"
