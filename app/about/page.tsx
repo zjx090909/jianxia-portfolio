@@ -6,9 +6,10 @@ const milestones = [
   { date: 'May 2022', event: 'Started studying at Algonquin College' },
   { date: 'Sep 2023 - Dec 2024', event: 'Software Developer at CRA' },
   { date: 'Aug 2024', event: 'Graduated with Honours from Algonquin College (Advanced Diploma in Computer Science)' },
-  { date: 'Apr 2025 - Sep 2025', event: 'Cloud Engineer at PSPC' },
+  { date: 'May 2025 - Sep 2025', event: 'Cloud Engineer at PSPC' },
   { date: 'Jul 2025', event: 'Terraform Associate Certificate' },
   { date: 'Sep 2025', event: 'Azure Fundementals Certificate' },
+  { date: 'Oct 2025', event: 'To be continued' },
 ]
 
 export default function About() {
@@ -20,7 +21,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto mb-12">
         <h1 className="text-4xl font-bold mb-4 text-gray-600">About Me</h1>
         <p className="text-lg text-gray-800">
-          I am an IT professional with 3+ years of experience in cloud engineering, software development, and infrastructure automation. Certified Terraform Associate and Azure Fundamentals. Skilled in Software development, Cloud administration, Infrastructure as Code, and building secure, scalable solutions.
+          Cloud Engineer / Software Developer  with 3+ years of experience in Azure cloud administration, Infrastructure as Code, and software development. Skilled in Java, React, Angular, REST APIs, automating infrastructure, building secure scalable systems, and collaborating across teams to deliver production-ready cloud solutions. Certified in Azure Fundamentals and Terraform Associate.    
         </p>
       </div>
 
@@ -29,11 +30,14 @@ export default function About() {
         {/* middle line */}
         <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
 
-        <ul className="space-y-12">
+        <ul className="space-y-12 relative">
           {milestones.map((m, idx) => {
             const isOdd = idx % 2 === 0
             return (
-              <li key={idx} className="flex w-full items-center">
+              <li key={idx} className="flex w-full items-center relative">
+                {/* Node circle */}
+                <div className="absolute left-1/2 transform -translate-x-1/2 bg-blue-400 rounded-full w-2 h-2 z-10" />
+
                 {isOdd ? (
                   <>
                     {/* left time */}
