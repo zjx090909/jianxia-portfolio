@@ -25,9 +25,9 @@ export default function HomePage() {
             color: { value: ["#ff9ff3", "#feca57", "#48dbfb", "#1dd1a1"] },
             shape: { type: "circle" },
             opacity: { value: 0.2, random: { enable: true, minimumValue: 0.1 } },
-            size: { value: 100, random: { enable: true, minimumValue: 20 } },
-            move: { enable: true, speed: 0.4, direction: "none", random: true, outModes: "bounce" },
-            blur: { enable: true, value: 0 }, // 柔化光晕
+            size: { value: 120, random: { enable: true, minimumValue: 20 } },
+            move: { enable: true, speed: 0.5, direction: "none", random: true, outModes: "bounce" },
+            blur: { enable: true, value: 80 }, 
           },
           interactivity: {
             events: {
@@ -41,8 +41,8 @@ export default function HomePage() {
 
       {/* content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
-        <h1 className="text-6xl font-bold text-blue-300 mb-4">Welcome to Jessica’s Portfolio</h1>
-        <p className="text-2xl text-pink-300">
+        <h1 className="text-6xl font-bold text-blue-400 mb-4">Welcome to Jessica’s Portfolio</h1>
+        <p className="text-2xl text-pink-400">
           Cloud Engineer • Developer • Dream Builder
         </p>
       </div>
