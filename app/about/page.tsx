@@ -19,7 +19,7 @@ export default function About() {
       <div className="absolute inset-0 -z-10 animate-gradient bg-gradient-to-r from-blue-100 via-purple-100 to-green-100 bg-[length:400%_400%]"></div>
       {/* summary */}
       <div className="max-w-4xl mx-auto mb-12">
-        <h1 className="text-4xl font-bold mb-4 text-gray-600">About Me</h1>
+        <h1 className="text-4xl font-bold mb-4 text-gray-600 text-center">About Me</h1>
         <p className="text-lg text-gray-800">
           Cloud Engineer / Software Developer  with 3+ years of experience in Azure cloud administration, Infrastructure as Code, and software development. Skilled in Java, React, Angular, REST APIs, automating infrastructure, building secure scalable systems, and collaborating across teams to deliver production-ready cloud solutions. Certified in Azure Fundamentals and Terraform Associate.    
         </p>
@@ -36,7 +36,7 @@ export default function About() {
             return (
               <li key={idx} className="flex w-full items-center relative">
                 {/* Node circle */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 bg-blue-400 rounded-full w-2 h-2 z-10" />
+                <div className="absolute left-1/2 transform -translate-x-1/2 bg-blue-300 rounded-full w-2 h-2 z-10" />
 
                 {isOdd ? (
                   <>
@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                     {/* right content*/}
                     <div className="w-1/2 pl-8 relative">
-                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-400">
+                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-500">
                         {m.event}
                       </div>
                     </div>
@@ -55,7 +55,7 @@ export default function About() {
                   <>
                     {/* left content */}
                     <div className="w-1/2 pr-8 relative">
-                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-400">
+                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-500">
                         {m.event}
                       </div>
                     </div>

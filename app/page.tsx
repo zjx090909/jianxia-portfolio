@@ -43,7 +43,7 @@ export default function HomePage() {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
         <h1 className="text-6xl font-bold text-blue-400 mb-4">Welcome to Jessica’s Portfolio</h1>
         <p className="text-2xl text-pink-400">
-          Cloud Engineer • Developer • Dream Builder
+          Cloud Engineer • Developer • Creative Thinker
         </p>
       </div>
     </div>
