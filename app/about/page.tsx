@@ -36,12 +36,12 @@ export default function About() {
             return (
               <li key={idx} className="flex w-full items-center relative">
                 {/* Node circle */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 bg-blue-300 rounded-full w-2 h-2 z-10" />
+                <div className="absolute left-1/2 transform -translate-x-1/2 bg-pink-400 rounded-full w-2 h-2 z-10" />
 
                 {isOdd ? (
                   <>
                     {/* left time */}
-                    <div className="w-1/2 pr-8 text-right text-blue-400 font-medium">
+                    <div className="w-1/2 pr-8 text-right text-pink-400 font-medium">
                       {m.date}
                     </div>
                     {/* right content*/}
@@ -60,7 +60,7 @@ export default function About() {
                       </div>
                     </div>
                     {/* right time */}
-                    <div className="w-1/2 pl-8 text-left text-blue-400 font-medium">
+                    <div className="w-1/2 pl-8 text-left text-pink-400 font-medium">
                       {m.date}
                     </div>
                   </>
