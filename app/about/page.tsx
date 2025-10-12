@@ -39,7 +39,7 @@ export default function About() {
 
       {/* milestone */}
       <div className="max-w-4xl mx-auto relative">
-        <h2 className="text-3xl font-bold mb-8 text-gray-600 text-center">Experience</h2>
+        <h2 className="text-3xl font-bold mb-8 text-gray-600 text-center">Experiences</h2>
         {/* middle line */}
         <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
         <ul className="space-y-12 relative">
