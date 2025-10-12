@@ -19,6 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Jessica's Portfolio</title>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="bg-white text-black flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">{children}</main>
