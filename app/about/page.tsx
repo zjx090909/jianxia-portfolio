@@ -17,25 +17,25 @@ export default function About() {
     <div className="min-h-screen p-8 relative overflow-hidden">
       {/* background */}
       <div className="absolute inset-0 -z-10 animate-gradient bg-gradient-to-r from-blue-100 via-purple-100 to-green-100 bg-[length:400%_400%]"></div>
-      
-      <div className="max-w-4xl mx-auto mb-12 flex flex-col md:flex-row items-center md:items-start gap-8">
-  {/* 图片 */}
-  <div className="md:w-1/3 flex justify-center md:justify-start">
-    <img
-      src="/profile-portrait.png"
-      alt="Jessica Zhang portrait"
-      className="rounded-full shadow-lg border-4 border-white/60 w-64 h-64 object-cover"
-    />
-  </div>
 
-  {/* 文字介绍 */}
-  <div className="text-gray-800 space-y-4 max-w-prose">
-    <p></p>
-  <p>Jessica is a Cloud Engineer / Software Developer with 3+ years of experience in Azure cloud administration, Infrastructure as Code, and software development. </p>
-  <p>Skilled in Terraform, Java, JavaScript, TypeScript, React, Angular, REST APIs, automating infrastructure, building secure scalable systems, and collaborating across teams to deliver production-ready cloud solutions. Certified in Azure Fundamentals and Terraform Associate.</p>
-  <p>Outside of work, she loves exploring new technologies, playing badminton, and developing new food receipts to share with friends.</p>
-</div>
-</div>
+      <div className="max-w-4xl mx-auto mb-12 flex flex-col md:flex-row items-center md:items-start gap-8">
+        {/* 图片 */}
+        <div className="md:w-1/3 flex justify-center md:justify-start">
+          <img
+            src="/profile-portrait.png"
+            alt="Jessica Zhang portrait"
+            className="rounded-full shadow-lg border-4 border-white/60 w-64 h-64 object-cover"
+          />
+        </div>
+
+        {/* 文字介绍 */}
+        <div className="text-gray-800 space-y-4 max-w-prose">
+          <p></p>
+          <p>Jessica is a Cloud Engineer / Software Developer with 3+ years of experience in cloud administration, Infrastructure as Code, and software development. </p>
+          <p>Skilled in Terraform, Java, JavaScript, TypeScript, React, Angular, C#, REST APIs, automating infrastructure, building secure scalable systems, and collaborating across teams to deliver production-ready cloud solutions. Certified in Azure Fundamentals, Terraform Associate and Microsoft Applied Skills.</p>
+          <p>Outside of work, she loves playing badminton, painting arts and developing new food receipts to share with friends.</p>
+        </div>
+      </div>
 
       {/* milestone */}
       <div className="max-w-4xl mx-auto relative">
