@@ -10,7 +10,7 @@ const certificates = [
     date: 'Sep 2025',
     type: 'certificate',
     image: '/certificates/az900.png',
-    link: 'https://learn.microsoft.com/en-ca/users/jessica-1558/credentials/894a1fbd600e2d86', 
+    link: 'https://learn.microsoft.com/en-ca/users/jessica-1558/credentials/894a1fbd600e2d86',
   },
   {
     title: 'HashiCorp Certified: Terraform Associate (003)',
@@ -19,6 +19,38 @@ const certificates = [
     type: 'badge',
     image: '/certificates/terraform-badge.png',
     link: 'https://www.credly.com/badges/157307e5-3617-45ca-9c9e-ef2ca57c6f0e',
+  },
+  {
+    title: 'Microsoft Applied Skills: Implement knowledge mining with Azure AI Search',
+    issuer: 'Microsoft',
+    date: 'Oct 2025',
+    type: 'badge',
+    image: '/certificates/appliedSkillsMicrosoft.png',
+    link: 'https://learn.microsoft.com/en-ca/users/jianxiazhang-9555/credentials/2dcefcd8b706d770',
+  },
+  {
+    title: 'Microsoft Applied Skills: Get started with classes, properties, and methods in C#',
+    issuer: 'Microsoft',
+    date: 'Oct 2025',
+    type: 'badge',
+    image: '/certificates/appliedSkillsMicrosoft.png',
+    link: 'https://learn.microsoft.com/en-ca/users/jessica-1558/credentials/applied-skill/get-started-with-classes-properties-and-methods-in-c-sharp?tab=applied-skills-tab',
+  },
+  {
+    title: 'Microsoft Applied Skills: Get started with identities and access using Microsoft Entra',
+    issuer: 'Microsoft',
+    date: 'Oct 2025',
+    type: 'badge',
+    image: '/certificates/appliedSkillsMicrosoft.png',
+    link: 'https://learn.microsoft.com/en-ca/users/jessica-1558/credentials/applied-skill/get-started-with-identities-and-access-using-microsoft-entra?tab=applied-skills-tab',
+  },
+  {
+    title: 'Microsoft Applied Skills: Get started with Azure management tasks',
+    issuer: 'Microsoft',
+    date: 'Oct 2025',
+    type: 'badge',
+    image: '/certificates/appliedSkillsMicrosoft.png',
+    link: 'https://learn.microsoft.com/en-ca/users/jessica-1558/credentials/applied-skill/get-started-with-azure-management-tasks?tab=applied-skills-tab',
   },
 ]
 
@@ -39,14 +71,14 @@ export default function Certificates() {
             >
               {/* image zone */}
               <div className="relative flex items-center justify-center bg-gray-50 h-56">
-  				<Image
-    				src={cert.image}
-   					alt={cert.title}
-    				width={160}
-    				height={160}
-    				className="object-contain rounded-full drop-shadow-md"
-  				/>
-			</div>
+                <Image
+                  src={cert.image}
+                  alt={cert.title}
+                  width={160}
+                  height={160}
+                  className="object-contain rounded-full drop-shadow-md"
+                />
+              </div>
 
               {/* text zone */}
               <div className="p-6">
