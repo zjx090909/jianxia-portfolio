@@ -15,7 +15,7 @@ export default function Header() {
   ]
 
   return (
-    <header className="bg-white shadow p-4 flex justify-center space-x-6">
+    <header className="bg-white shadow p-4 flex flex-wrap justify-center gap-3 sm:space-x-6 overflow-x-hidden">
       {links.map((link) => (
         <Link
           key={link.href}

@@ -8,7 +8,7 @@ export default function Resume() {
       {/* PDF Viewer */}
       <div className="flex-1 w-full max-w-5xl">
         <iframe
-          src="/resume.pdf"
+          src="/Jianxia Zhang_Resume_cloud.pdf"
           title="Resume PDF"
           className="w-full h-[80vh] md:h-[90vh] border-none"
         />
