@@ -41,7 +41,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto relative">
         <h2 className="text-3xl font-bold mb-8 text-gray-600 text-center">Experiences</h2>
         {/* middle line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
+        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-500"></div>
         <ul className="space-y-12 relative">
           {milestones.map((m, idx) => {
             const isOdd = idx % 2 === 0
@@ -67,7 +67,7 @@ export default function About() {
                   <>
                     {/* left content */}
                     <div className="w-1/2 pr-8 relative">
-                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-400">
+                      <div className="bg-white/80 backdrop-blur-md rounded-lg px-4 py-2 shadow-md text-gray-500">
                         {m.event}
                       </div>
                     </div>
